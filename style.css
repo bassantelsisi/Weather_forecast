@@ -1,0 +1,139 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/banner.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(33, 37, 41, 0.9) !important;
+    padding: 1.5rem 2rem !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-logo {
+    font-size: 24px;
+    color: #0dcaf0;
+}
+
+.search-container {
+    max-width: 800px;
+    margin: 100px auto 50px;
+}
+
+.search-input {
+    background-color: rgba(33, 37, 41, 0.8);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.search-input:focus {
+    background-color: rgba(33, 37, 41, 0.8);
+    color: white;
+    box-shadow: none;
+}
+
+.search-btn {
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+
+.weather-card {
+    background-color: rgba(33, 37, 41, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.temperature {
+    font-size: 48px;
+    color: aliceblue;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.day-name {
+    color: #F7B901;
+    font-size: 16px;
+}
+
+.current-conditions {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.condition i {
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+.range-temp {
+    color: aliceblue;
+}
+
+#weatherCards {
+    margin-bottom: 1.5rem;
+}
+
+/* footer design*/
+.footer-custom {
+    background-color:#212529;
+    padding: 2rem 0;
+    color: #ffffff;
+}
+
+.subscribe-form {
+    max-width: 500px;
+    margin: 0 ;
+}
+
+.subscribe-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.subscribe-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.subscribe-button {
+    background-color: #00bcd4;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 25px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #0097a7;
+}
+
+.social-links a {
+    color: #00bcd4;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+}
+
